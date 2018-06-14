@@ -1,0 +1,9 @@
+def info():
+    s=input("enter server name: ")
+    d=input("enter db name: ")
+    u=input("enter user name: ")
+    p=input("enter the password:")
+    return("servername=%s;dbnam= %s;username=%s; password=%s"%(s,d,u,p))
+
+
+    
