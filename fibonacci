@@ -1,0 +1,11 @@
+def fibonacci(i):
+    a=0
+    b=1
+    l=[]
+    while(i>0):
+        l.append(a)
+        a,b=b,a+b
+        i-=1
+    return l;
+
+        
