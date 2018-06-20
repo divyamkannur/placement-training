@@ -1,0 +1,9 @@
+class student:
+    def __init__(self,x,y):
+        self.x=x
+        self.y=y
+    def show(self):
+        print (self.x,self.y)
+c=student(10,20)
+c.show()
+
