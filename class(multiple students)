@@ -1,0 +1,13 @@
+class student:
+    def __init__(self,name,salary):
+        self.name=name
+        self.salary=salary
+    def show(self):
+        print (self.name,self.salary)
+c=student("x",20)
+d=student("y",30)
+c.show()
+d.show()
+
+
+
